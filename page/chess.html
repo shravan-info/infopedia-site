@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chess — Infopedia</title>
+<meta name="description" content="A two-player strategy game of perfect information, descended from Indian chaturanga and now played competitively worldwide and dominated in analysis by engines.">
+<meta name="color-scheme" content="dark light">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23e8c98a'/%3E%3Ccircle cx='16' cy='9.4' r='2.6' fill='%230a0a0b'/%3E%3Cpath d='M13.4 14.6h5.2v10.6h-5.2z' fill='%230a0a0b'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/style.css">
+<script>try{var t=localStorage.getItem("infopedia-theme");if(t)document.documentElement.setAttribute("data-theme",t);}catch(e){}</script>
+
+</head>
+<body><header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="../index.html" aria-label="Infopedia home">
+      <span class="mark"><svg viewBox="0 0 32 32" aria-hidden="true">
+  <rect x="1.2" y="1.2" width="29.6" height="29.6" rx="8.4" fill="url(#ig)"/>
+  <circle cx="16" cy="9.4" r="2.5" fill="#0a0a0b"/>
+  <path d="M13.4 14.6h5.2v10.6h-5.2z" fill="#0a0a0b"/>
+  <defs><linearGradient id="ig" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#f6e7c1"/><stop offset="0.55" stop-color="#e8c98a"/><stop offset="1" stop-color="#c9a25f"/>
+  </linearGradient></defs>
+</svg></span>
+      <span class="wordmark">Infopedia</span>
+      <span class="beta">beta</span>
+    </a>
+    <button class="searchbtn" data-search-open aria-label="Search Infopedia">
+      <span class="sicon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.6-3.6"/></svg></span>
+      <span class="sph">Search Infopedia</span>
+      <kbd>Ctrl K</kbd>
+    </button>
+    <nav class="topnav">
+      <a href="../latest-edits.html">Latest edits</a>
+      <a href="../about.html">About</a>
+      <button class="iconbtn" id="themeToggle" aria-label="Toggle colour theme" title="Toggle theme">
+        <span class="ic-sun"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.2 5.2l1.4 1.4M17.4 17.4l1.4 1.4M18.8 5.2l-1.4 1.4M6.6 17.4l-1.4 1.4"/></svg></span><span class="ic-moon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M20 14.5A8.2 8.2 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5Z"/></svg></span>
+      </button>
+      <button class="avatar" aria-label="Account">S</button>
+    </nav>
+  </div>
+</header><div class="progress"><span id="progressBar"></span></div>
+<main class="article-shell" style="--h:240">
+  <aside class="toc">
+    <div class="toc-sticky">
+      <p class="toc-label">Contents</p>
+      <nav class="toc-list"><a href="#origins" data-toc="origins">Origins</a><a href="#rules" data-toc="rules">Rules and structure</a><a href="#competition" data-toc="competition">Competitive history</a><a href="#engines" data-toc="engines">The engine era</a><a href="#culture" data-toc="culture">Chess in India and online</a></nav>
+      <div class="toc-extra">
+        <a href="#references" data-toc="references">References</a>
+      </div>
+      <button class="btn ghost full" data-suggest>Suggest an edit</button>
+    </div>
+  </aside>
+
+  <article class="article" data-article>
+    <nav class="crumbs"><a href="../index.html">Home</a><span>/</span><span class="crumb-cat">Sport</span><span>/</span><span>Chess</span></nav>
+    <h1>Chess</h1>
+    <p class="byline">
+      <span class="tag-ai">AI-generated draft</span>
+      <span>3 sources</span><span class="sep">·</span>
+      <span>525 words</span><span class="sep">·</span>
+      <span>2 min read</span><span class="sep">·</span>
+      <span>Updated 22 September 2026</span>
+    </p>
+
+    <div class="keyfacts">
+      <div class="kf-head"><span>Key facts</span><button class="copy-kf" data-copy-facts>Copy</button></div>
+      <dl><div class="fact"><dt>Players</dt><dd>Two</dd></div><div class="fact"><dt>Origin</dt><dd>Chaturanga, India, c. 6th century CE</dd></div><div class="fact"><dt>Board</dt><dd>8×8 squares, 64 in total</dd></div><div class="fact"><dt>Governing body</dt><dd>FIDE, founded 1924</dd></div><div class="fact"><dt>First world champion</dt><dd>Wilhelm Steinitz, 1886</dd></div><div class="fact"><dt>Current era</dt><dd>Engine-assisted preparation since the 1990s</dd></div></dl>
+    </div>
+
+    <p class="lede">A two-player strategy game of perfect information, descended from Indian chaturanga and now played competitively worldwide and dominated in analysis by engines.</p>
+
+    <section id="origins">
+      <h2>Origins<a class="anchor" href="#origins" aria-label="Link to this section"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M10.5 13.5a4 4 0 0 0 5.7 0l2.6-2.6a4 4 0 0 0-5.7-5.7L11.7 6.6"/><path d="M13.5 10.5a4 4 0 0 0-5.7 0l-2.6 2.6a4 4 0 0 0 5.7 5.7l1.4-1.4"/></svg></a></h2>
+      <p>Chess descends from <strong>chaturanga</strong>, a four-player game recorded in India by the sixth century CE, whose pieces — infantry, cavalry, elephants and chariotry — map onto the modern pawn, knight, bishop and rook. It travelled to Persia as shatranj, then into the Islamic world and Europe, where the rules were reshaped in the fifteenth century: the queen and bishop gained their long-range powers, and the game acquired the speed and tactical density recognisable today.<sup class="cite"><a href="#ref-1">1</a></sup></p>
+<p>The modern rules were essentially fixed by the nineteenth century, when competitive play, clocks, notation and a body of theory emerged together. The first official world championship match, Steinitz–Zukertort, was played in 1886.</p>
+    </section><section id="rules">
+      <h2>Rules and structure<a class="anchor" href="#rules" aria-label="Link to this section"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M10.5 13.5a4 4 0 0 0 5.7 0l2.6-2.6a4 4 0 0 0-5.7-5.7L11.7 6.6"/><path d="M13.5 10.5a4 4 0 0 0-5.7 0l-2.6 2.6a4 4 0 0 0 5.7 5.7l1.4-1.4"/></svg></a></h2>
+      <p>Each player begins with sixteen pieces. White moves first; the objective is checkmate — attacking the opposing king so that no legal response exists. Special rules include castling, en passant, and pawn promotion. A player may also win on time, or the game may be drawn by stalemate, agreement, threefold repetition, the fifty-move rule or insufficient material.</p>
+<p>A game divides into the <strong>opening</strong> (development and control of the centre), the <strong>middlegame</strong> (tactics and plans) and the <strong>endgame</strong> (technique with few pieces). Time controls range from bullet (under three minutes for the whole game) to classical formats of ninety minutes or more per side.</p>
+    </section><section id="competition">
+      <h2>Competitive history<a class="anchor" href="#competition" aria-label="Link to this section"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M10.5 13.5a4 4 0 0 0 5.7 0l2.6-2.6a4 4 0 0 0-5.7-5.7L11.7 6.6"/><path d="M13.5 10.5a4 4 0 0 0-5.7 0l-2.6 2.6a4 4 0 0 0 5.7 5.7l1.4-1.4"/></svg></a></h2>
+      <p>The world championship has passed through distinct eras: the positional school of Steinitz and Lasker, Capablanca's endgame precision, Alekhine's combinative play, the Soviet institutional dominance from Botvinnik to Karpov, and Garry Kasparov's 1985–2000 reign. FIDE, founded in 1924, governs the title and the rating system that replaced earlier informal rankings.</p>
+<p>Magnus Carlsen held the title from 2013 to 2023, when he declined to defend it; Ding Liren won the 2023 match, and <strong>D. Gukesh</strong> took the title in December 2024 at eighteen, the youngest world champion in history. India's rise has been rapid: Viswanathan Anand was world champion from 2007 to 2013, and Indian players now occupy a large share of the top hundred.</p>
+<div class="table-wrap"><table><thead><tr><th>Era</th><th>Champion</th><th>Years</th><th></th><th>Classical</th><th>Steinitz to Capablanca</th><th>1886–1927</th><th></th><th>Soviet</th><th>Botvinnik to Karpov</th><th>1948–1985</th><th></th><th>Kasparov</th><th>Kasparov</th><th>1985–2000</th><th></th><th>Engine era</th><th>Kramnik to Anand</th><th>2000–2013</th><th></th><th>Carlsen</th><th>Carlsen</th><th>2013–2023</th></tr></thead><tbody></tbody></table></div>
+    </section><section id="engines">
+      <h2>The engine era<a class="anchor" href="#engines" aria-label="Link to this section"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M10.5 13.5a4 4 0 0 0 5.7 0l2.6-2.6a4 4 0 0 0-5.7-5.7L11.7 6.6"/><path d="M13.5 10.5a4 4 0 0 0-5.7 0l-2.6 2.6a4 4 0 0 0 5.7 5.7l1.4-1.4"/></svg></a></h2>
+      <p>Deep Blue's match win over Kasparov in 1997 was a landmark, but the deeper shift was quieter: from the mid-2000s, engines such as Rybka, Stockfish and Komodo became stronger than any human, and preparation moved to computer analysis. Opening theory deepened enormously and drawn games at the top level became a recurring complaint.</p>
+<p>AlphaZero's 2017 result — learning from the rules alone through self-play and defeating Stockfish in a match — demonstrated a different approach, and its style, with long-term positional sacrifices, influenced human play. Neural-network evaluation is now standard in both commercial and open-source engines.</p>
+    </section><section id="culture">
+      <h2>Chess in India and online<a class="anchor" href="#culture" aria-label="Link to this section"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M10.5 13.5a4 4 0 0 0 5.7 0l2.6-2.6a4 4 0 0 0-5.7-5.7L11.7 6.6"/><path d="M13.5 10.5a4 4 0 0 0-5.7 0l-2.6 2.6a4 4 0 0 0 5.7 5.7l1.4-1.4"/></svg></a></h2>
+      <p>India's chess infrastructure grew through Anand's example, the Chennai-based coaching ecosystem, and a wave of young grandmasters from Tamil Nadu, Kerala and Maharashtra. India won the open section of the Chess Olympiad in 2024, and hosted the event in Chennai in 2022.</p>
+<p>Online platforms have changed the game's scale: rapid and blitz formats, streaming commentary, and rating pools of millions of players. FIDE ratings, once purely classical, now extend to faster formats, and online cheating detection has become a live governance problem — one that produced a widely followed controversy in 2022–23.</p>
+    </section>
+
+    <section id="references">
+      <h2>References<a class="anchor" href="#references" aria-label="Link to references"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M10.5 13.5a4 4 0 0 0 5.7 0l2.6-2.6a4 4 0 0 0-5.7-5.7L11.7 6.6"/><path d="M13.5 10.5a4 4 0 0 0-5.7 0l-2.6 2.6a4 4 0 0 0 5.7 5.7l1.4-1.4"/></svg></a></h2>
+      <ol class="refs"><li id="ref-1"><span class="ref-n">1</span><span class="ref-t">Murray, H. J. R., <em>A History of Chess</em>, Oxford University Press, 1913.</span><span class="ref-src">academic</span></li><li id="ref-2"><span class="ref-n">2</span><span class="ref-t">FIDE, <em>FIDE Handbook</em> — Laws of Chess, fide.com.</span><span class="ref-src">fide.com</span></li><li id="ref-3"><span class="ref-n">3</span><span class="ref-t">Silver, D. et al., 'A general reinforcement learning algorithm that masters chess, shogi, and Go', <em>Science</em> 362 (2018).</span><span class="ref-src">science.org</span></li></ol>
+      <p class="ref-note">Sources are listed for verification. Infopedia articles are machine-drafted and may contain errors; check the original before relying on any figure.</p>
+    </section>
+
+    <nav class="pager"><a class="pg" href="../page/carnatic-music.html"><span>← Previous</span><strong>Carnatic music</strong></a><a class="pg next" href="../page/ashoka.html"><span>Next →</span><strong>Ashoka</strong></a></nav>
+  </article>
+
+  <aside class="panel">
+    <div class="kp">
+      <div class="kp-hero"><span class="mono">C</span><span class="kp-cat">Sport</span></div>
+      <dl class="kp-facts">
+        <div><dt>Category</dt><dd>Sport</dd></div>
+        <div><dt>Sources cited</dt><dd>3</dd></div>
+        <div><dt>Reading time</dt><dd>2 min · 525 words</dd></div>
+        <div><dt>Last updated</dt><dd>22 September 2026</dd></div>
+      </dl>
+      <div class="kp-status"><span class="ok"></span> Citations verified</div>
+    </div>
+    <div class="card">
+      <h4>Related topics</h4>
+      <div class="rel-list"><a class="rel" href="../page/ashoka.html" style="--h:355"><span class="rel-cat">History</span><span class="rel-t">Ashoka</span></a><a class="rel" href="../page/carnatic-music.html" style="--h:12"><span class="rel-cat">Music</span><span class="rel-t">Carnatic music</span></a><a class="rel" href="../page/unified-payments-interface.html" style="--h:210"><span class="rel-cat">Technology</span><span class="rel-t">Unified Payments Interface</span></a></div>
+    </div>
+    <div class="card">
+      <h4>Contribute</h4>
+      <p class="small">Spotted an error? Propose a correction with a source link. Suggestions are reviewed before publication.</p>
+      <button class="btn full" data-suggest>Suggest an edit</button>
+    </div>
+  </aside>
+</main><footer class="site-footer">
+  <div class="foot-inner">
+    <div class="foot-brand">
+      <span class="mark sm"><svg viewBox="0 0 32 32" aria-hidden="true">
+  <rect x="1.2" y="1.2" width="29.6" height="29.6" rx="8.4" fill="url(#ig)"/>
+  <circle cx="16" cy="9.4" r="2.5" fill="#0a0a0b"/>
+  <path d="M13.4 14.6h5.2v10.6h-5.2z" fill="#0a0a0b"/>
+  <defs><linearGradient id="ig" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#f6e7c1"/><stop offset="0.55" stop-color="#e8c98a"/><stop offset="1" stop-color="#c9a25f"/>
+  </linearGradient></defs>
+</svg></span>
+      <div>
+        <strong>Infopedia</strong>
+        <p>An open encyclopedia of everything. Every article cites its sources.</p>
+      </div>
+    </div>
+    <div class="foot-cols">
+      <div><h4>Browse</h4><a href="../index.html">Home</a><a href="../latest-edits.html">Latest edits</a><a href="../about.html">About &amp; method</a></div>
+      <div><h4>Topics</h4><a href="../page/black-hole.html">Astronomy</a><a href="../page/himalayas.html">Geography</a><a href="../page/ashoka.html">History</a><a href="../page/quantum-computing.html">Computing</a></div>
+      <div><h4>Project</h4><a href="../about.html#method">How articles are made</a><a href="../about.html#sources">Sourcing standard</a><a href="../about.html#notice">Disclaimers</a></div>
+    </div>
+  </div>
+  <div class="foot-base">
+    <span>© 2026 Infopedia — a design study modelled on Grokipedia's interface. Not affiliated with xAI.</span>
+    <span class="foot-meta">v1.0 · 16 articles · 42 sources</span>
+  </div>
+</footer><div class="palette" id="palette" hidden>
+  <div class="palette-scrim" data-search-close></div>
+  <div class="palette-panel" role="dialog" aria-modal="true" aria-label="Search Infopedia">
+    <div class="palette-field">
+      <span class="sicon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.6-3.6"/></svg></span>
+      <input id="paletteInput" type="text" autocomplete="off" spellcheck="false" placeholder="Search 16 articles — try 'moon', 'raga', 'qubit'">
+      <kbd>Esc</kbd>
+    </div>
+    <div class="palette-body" id="paletteResults"></div>
+    <div class="palette-foot">
+      <span><kbd>↑</kbd><kbd>↓</kbd> to navigate</span>
+      <span><kbd>↵</kbd> to open</span>
+      <span><kbd>Ctrl</kbd><kbd>K</kbd> anywhere</span>
+    </div>
+  </div>
+</div>
+<div class="seltool" id="seltool" hidden>
+  <button data-act="copy">Copy</button>
+  <button data-act="ask">Ask</button>
+  <button data-act="wrong">It's wrong</button>
+</div>
+<div class="toast" id="toast" hidden></div><script src="../assets/index-data.js"></script><script src="../assets/app.js"></script>
+</body>
+</html>
